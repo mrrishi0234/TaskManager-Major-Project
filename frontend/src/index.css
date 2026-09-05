@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { min-width: 320px; }
+body { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:#f7f3ec; color:#22201d; line-height:1.5; -webkit-font-smoothing:antialiased; }
+body, button, input, select, textarea { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+button, input, select, textarea { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+.container { width:min(1160px, calc(100% - 40px)); margin:0 auto; }
+.fade-in { animation: pageIn .35s ease-out both; }
+@keyframes pageIn { from{opacity:0;transform:translateY(7px)} to{opacity:1;transform:none} }
