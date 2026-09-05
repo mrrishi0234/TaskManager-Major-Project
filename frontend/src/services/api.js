@@ -1,6 +1,7 @@
 // Centralized API client for communicating with backend
 
-const API_BASE = '/api';
+// const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 // Helper function to build headers
 const getHeaders = () => {
