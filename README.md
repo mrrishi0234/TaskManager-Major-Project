@@ -23,22 +23,25 @@ Taskflow lets users create an account, manage their tasks, track progress, and k
 
 ## Structure
 
-```text
 TaskManager-Major-Project/
 ├── frontend/    # React + Vite
 ├── backend/     # Express REST API
 └── package.json
 
-Run Locally
+
+Run Locally:
+
 git clone https://github.com/mrrishi0234/TaskManager-Major-Project.git
 cd TaskManager-Major-Project
 npm run install:all
+
 
 Create backend/.env:
 
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=5000
+
 
 Then run:
 
